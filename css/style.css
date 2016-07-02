@@ -1,0 +1,31 @@
+body {
+	background-color: #2c3035;
+}
+.cube {
+	perspective: 1600px;
+	perspective-origin: 50% -240px;
+}
+.cube .side {
+	width: 300px;
+	height: 300px;
+	left: 150px;
+	top: 150px;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.cube .top {
+	background-color: #fff952;
+	transform: rotateY(40deg) rotateX(90deg) translateZ(150px);
+}
+.cube .left {
+	background-color: #52ff73;
+	transform: rotateY(-50deg) translateZ(150px);
+}
+.cube .right {
+	background-color: #ff5262;
+	transform: rotateY(140deg) translateZ(150px);
+}
+.cube .front {
+	background-color: #60c2ef;
+	transform: rotateY(40deg) translateZ(150px);
+}

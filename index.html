@@ -1,44 +1,14 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>MWC_Backyard_Coding</title>
-        <link rel="stylesheet" href="assets/css/style.css" />
-
-        <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-        <link rel="import" href="bower_components/iron-demo-helpers/demo-snippet.html">
-        <link rel="import" href="bower_components/iron-demo-helpers/demo-pages-shared-styles.html">
-        <link rel="import" href="bower_components/paper-button/paper-button.html">
-        <link rel="import" href="bower_components/paper-checkbox/paper-checkbox.html">
-        <link rel="import" href="bower_components/paper-dropdown-menu/paper-dropdown-menu.html">
-        <link rel="import" href="bower_components/paper-input/paper-input.html">
-        <link rel="import" href="bower_components/paper-input/paper-textarea.html">
-        <link rel="import" href="bower_components/paper-item/paper-item.html">
-        <link rel="import" href="bower_components/paper-menu/paper-menu.html">
-        <link rel="import" href="bower_components/paper-spinner/paper-spinner.html">
-        <link rel="import" href="bower_components/paper-styles/color.html">
-        <link rel="import" href="bower_components/paper-styles/typography.html">
-        <link rel="import" href="bower_components/iron-form/iron-form.html">
-
-        <style>
-            paper-textarea .input-content.paper-input-container {
-                height: 220px;
-                align-items: baseline !important;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="vertical-section-container centered">
-            <form is="iron-form" method="get" action="/" id="basic">
-                <paper-input name="favorite-sport" label="Favorite Sport" required></paper-input>
-                <br>
-                <paper-input name="favorite-team" label="Favorite Team" required></paper-input>
-                <br>
-                <paper-textarea name="comments" label="Comments" required></paper-textarea>
-                <br>
-                <paper-button raised onclick="_submit(event)">Submit</paper-button>
-            </form>
-        </div>
-    </body>
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-    <script src="assets/js/scripts.js" type="text/javascript"></script>
+	<head>
+		<title>Backyard Coding</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="cube">
+			<figure class="top side"></figure>
+			<figure class="left side"></figure>
+			<figure class="right side"></figure>
+			<figure class="front side"></figure>
+		</div>
+	</body>
 </html>
